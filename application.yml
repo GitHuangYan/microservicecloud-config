@@ -4,11 +4,11 @@ spring:
             - dev
 ---
 spring:
-    profiles:
+    profiles: dev
     application:
         name: microservicecloud-config-pegatron-dev
 ---
 spring:
-    profiles:
+    profiles: test
     application:
         name: microservicecloud-config-pegatron-test
