@@ -1,0 +1,14 @@
+spring:
+    profiles:
+        active:
+            - dev
+---
+spring:
+    profiles:
+    application:
+        name: microservicecloud-config-pegatron-dev
+---
+spring:
+    profiles:
+    application:
+        name: microservicecloud-config-pegatron-test
